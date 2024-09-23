@@ -1,14 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:task_management_app/core/style/app_color.dart';
-import 'package:task_management_app/core/style/app_text_style.dart';
 
 class CustomButton extends StatelessWidget {
   final double? width;
-  final String text;
+
   final void Function()? onPressed;
+  final Widget child;
   const CustomButton(
-      {super.key, this.width, required this.text, this.onPressed});
+      {super.key, this.width, this.onPressed, required this.child});
 
   @override
   Widget build(BuildContext context) {
@@ -20,6 +20,6 @@ class CustomButton extends StatelessWidget {
             ),
             minimumSize: Size(width ?? 100.w, 60.h)),
         onPressed: onPressed,
-        child: Text(text, style: AppTextStyle.f16white));
+        child: child);
   }
 }

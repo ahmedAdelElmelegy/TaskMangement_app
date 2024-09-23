@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:task_management_app/features/login/presentation/view/login_view.dart';
+import 'package:task_management_app/features/Auth/login/presentation/view/login_view.dart';
 
 class OnBoardingController extends GetxController {
   int indexTap = 0;

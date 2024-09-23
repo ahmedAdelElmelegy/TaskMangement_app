@@ -16,11 +16,11 @@ class OnBoardingTitle extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Text(
-          'Manage your Task \n& Projects Easily',
+          title,
           style: AppTextStyle.f28black,
         ),
         Text(
-          'It is a long established fact that areader \nwill be distracted by the readable content',
+          subtitle,
           style: AppTextStyle.f16content,
         ),
       ],

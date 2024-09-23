@@ -6,9 +6,17 @@ class Assets {
   /// assets/images/enter_new_passw.png
   static const String imagesEnterNewPassw = "assets/images/enter_new_passw.png";
 
+  /// Assets for imagesFacebookIcon
+  /// assets/images/facebook_icon.svg
+  static const String imagesFacebookIcon = "assets/images/facebook_icon.svg";
+
   /// Assets for imagesForgotpassword
   /// assets/images/forgotpassword.png
   static const String imagesForgotpassword = "assets/images/forgotpassword.png";
+
+  /// Assets for imagesGoogelIcon
+  /// assets/images/googel_icon.svg
+  static const String imagesGoogelIcon = "assets/images/googel_icon.svg";
 
   /// Assets for imagesLogo
   /// assets/images/logo.png
