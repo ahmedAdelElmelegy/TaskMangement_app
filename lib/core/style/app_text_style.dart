@@ -12,12 +12,12 @@ abstract class AppTextStyle {
   // f24
 
   static TextStyle f24black = TextStyle(
-    fontSize: 28.sp,
+    fontSize: 24.sp,
     fontWeight: FontWeight.bold,
     color: AppColor.blackColor,
   );
   static TextStyle f24primary = TextStyle(
-    fontSize: 28.sp,
+    fontSize: 24.sp,
     fontWeight: FontWeight.bold,
     color: AppColor.primaryColor,
   );

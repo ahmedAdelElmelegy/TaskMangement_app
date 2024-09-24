@@ -31,9 +31,11 @@ dependencies:
   cupertino_icons: ^1.0.8
   flutter:
     sdk: flutter
+  flutter_iconly: ^1.0.2
   flutter_screenutil: ^5.9.3
   flutter_svg: ^2.0.10+1
   get: ^4.6.6
+
 
 dev_dependencies:
   flutter_launcher_icons: "^0.14.0"

@@ -6,4 +6,6 @@ class AppColor {
   static Color subtitle = Colors.grey.shade400;
   static Color blackColor = Colors.black;
   static Color whiteColor = Colors.white;
+
+  static Color floatColor = Color(0XFF8687E7);
 }

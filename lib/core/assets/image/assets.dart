@@ -2,6 +2,10 @@
 class Assets {
   Assets._();
   
+  /// Assets for imagesChecklis
+  /// assets/images/Checklis.png
+  static const String imagesChecklis = "assets/images/Checklis.png";
+
   /// Assets for imagesEnterNewPassw
   /// assets/images/enter_new_passw.png
   static const String imagesEnterNewPassw = "assets/images/enter_new_passw.png";
@@ -41,6 +45,10 @@ class Assets {
   /// Assets for imagesOtpVerification
   /// assets/images/otp_verification.png
   static const String imagesOtpVerification = "assets/images/otp_verification.png";
+
+  /// Assets for imagesSort
+  /// assets/images/sort.svg
+  static const String imagesSort = "assets/images/sort.svg";
 
   /// Assets for imagesTodoLogo
   /// assets/images/todoLogo.png
