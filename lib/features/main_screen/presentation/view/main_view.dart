@@ -3,6 +3,10 @@ import 'package:flutter_iconly/flutter_iconly.dart';
 import 'package:task_management_app/core/style/app_color.dart';
 
 import 'package:task_management_app/core/utils/spacing.dart';
+import 'package:task_management_app/features/Home/presentation/view/home_view.dart';
+import 'package:task_management_app/features/Profile/presentation/view/profile_view.dart';
+import 'package:task_management_app/features/calender/presentation/view/calender_view.dart';
+import 'package:task_management_app/features/focuse/presentation/view/focuse_view.dart';
 
 class MainView extends StatefulWidget {
   const MainView({super.key});
@@ -13,7 +17,12 @@ class MainView extends StatefulWidget {
 
 class _MainViewState extends State<MainView> {
   int _currentIndex = 0;
-
+  List<Widget> screens = [
+    HomeView(),
+    CalenderView(),
+    FocuseView(),
+    ProfileView(),
+  ];
   void onItemTap(int index) {
     setState(() {
       _currentIndex = index;
@@ -23,6 +32,7 @@ class _MainViewState extends State<MainView> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      body: screens[_currentIndex],
       floatingActionButton: FloatingActionButton(
         backgroundColor: AppColor.floatColor,
         onPressed: () {},
@@ -94,7 +104,11 @@ class CustomIcon extends StatelessWidget {
       onTap: fun,
       child: Column(
         mainAxisAlignment: MainAxisAlignment.end,
-        children: [Icon(icon), Text(text)],
+        children: [
+          Icon(icon),
+          verticalSpacing(height: 5),
+          Text(text),
+        ],
       ),
     );
   }

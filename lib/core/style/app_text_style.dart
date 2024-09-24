@@ -41,4 +41,36 @@ abstract class AppTextStyle {
     fontWeight: FontWeight.w600,
     color: AppColor.primaryColor,
   );
+  static TextStyle f16subitle = TextStyle(
+    fontSize: 16.sp,
+    fontWeight: FontWeight.w600,
+    color: AppColor.subtitle,
+  );
+// fx14
+  static TextStyle f14subitle = TextStyle(
+    fontSize: 14.sp,
+    color: AppColor.subtitle,
+  );
+  static TextStyle f14white = TextStyle(
+    fontSize: 14.sp,
+    color: AppColor.whiteColor,
+  );
+  static TextStyle f14black = TextStyle(
+    fontSize: 14.sp,
+    color: AppColor.blackColor,
+  );
+  // fx12
+
+  static TextStyle f12subitle = TextStyle(
+    fontSize: 12.sp,
+    color: AppColor.subtitle,
+  );
+  static TextStyle f12white = TextStyle(
+    fontSize: 12.sp,
+    color: AppColor.whiteColor,
+  );
+  static TextStyle f12black = TextStyle(
+    fontSize: 12.sp,
+    color: AppColor.blackColor,
+  );
 }
